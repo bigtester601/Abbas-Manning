@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+	text-align: center;
+	background-color: #c9e4f5;
+}
+
+hr{
+	border-style: none;
+    border-top-style: dotted;
+    background-color: transparent;
+    border-color: #9cc4e5;
+    border-width: 5px;
+    width: 4%;
+
+}
+
+p{
+	font-family:"Georgia", Times New Roman, Times, serif;
+}
+
+h2{
+    margin: 55px auto 55px auto;
+}
+/*******************************The "top-container" starts here*******************************/
+.top-container{
+	background-color: #e4f9f5;
+    height: 764px;
+}
+
+.land {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    bottom: -106px;
+}
+
+.name{
+	font-size: 2.5rem;
+	font-family: "monserrat" sans-serif; 
+}
+
+.brief{
+    position: absolute;
+    top: 161px;
+	width: 100%;
+}
+
+.sky-1{
+	position: absolute;
+    top: 187px;
+    right: 694px;
+	width: 25%;
+}
+
+.sky-2{
+	width: 25%;
+}
+
+.sky-3{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+	width: 25%;
+}
+/*******************************The "top-container" ends here*******************************/
+/*******************************The "middle-container" starts here*******************************/
+.middle-container{
+	position: relative;
+    top: -1px;
+	background-color: #c9e4f5;
+	height: 100%;
+}
+
+.avatar{
+	width: 25%;
+	margin-top: 10px;
+}
+
+.explanation{
+    text-align: left;
+	text-align-last: center;
+    margin: 50px 195px 75px 255px;
+	width: 50%;
+}
+
+.skill-row{
+	text-align: left;
+    margin: 100px 250px 100px 300px;
+	width: 50%;
+}
+
+.skill-1{
+    width: 25%;
+    float: left;
+    margin-right: 25px;
+}
+
+
+
+.skill-2{
+    width: 25%;
+    float: right;
+    margin-left: 25px;
+}
+
+.skill-3{
+    width: 25%;
+    float: left;
+    margin-right: 25px;
+}
+
+.touch{
+	font-size: 2rem;
+}
+
+.contact-me{
+    width: 100%;
+}
+/*******************************The "middle-container" ends here*******************************/
+/*******************************The "bottom-container" starts here*******************************/
+.bottom-container {
+	background-color: #9cc4e5;
+    position: relative;
+    top: -1px;
+	padding-top: 1px;
+}
+
+.copyright{
+	margin-top: 15px;
+    margin-bottom: 0;
+	width: 100%;
+}
+
+a{
+    margin: 50px 15px;
+}
+
+.footer-link{
+	transition: margin 2s;
+}
+
+.footer-link:hover{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+/*******************************The "bottom-container" ends here*******************************/
